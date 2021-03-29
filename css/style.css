@@ -1,0 +1,78 @@
+section{
+    margin-top: 50px;
+}
+#title h1 {
+    font-family: 'Comic Neue';
+    text-align: center;
+    margin-top: 40px;
+    
+}  
+#title img
+{
+    animation-duration: 3s ;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    width: 176px;
+    max-width: 170px;
+    height: 200px;
+    
+}
+ @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.carousel-inner{
+  border-radius: 20px;
+}
+.row
+{
+  margin-bottom: 40px   ;
+}
+.title{
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: -160px;
+  background: rgba(255,255,255, 0.5) !important;
+  position: absolute;
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
